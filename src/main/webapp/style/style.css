@@ -1,0 +1,26 @@
+
+.nav-bar {
+    background: linear-gradient(-90deg, #84cf6a, #16c0b0);
+    height: 60px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+  }
+  
+  .color-circle {
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+    border: 2px solid #d8d8d8;
+    border-radius: 50%;
+}
+
+.disabledButton {
+    background-color: #d8d8d8;
+    cursor: not-allowed;
+}
+
+.fit-picture {
+  width: 250px;
+}

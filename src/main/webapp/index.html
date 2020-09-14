@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Vue3</title>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <h2> Kids Canteen </h2>
+    <div id="app">
+        <div>
+            <h2>Menu Items</h2>
+            <menu-item></menu-item>
+            <menu-item></menu-item>
+        </div>
+    </div>
+
+    <!-- Import App -->
+    <script src="./script/main.js"></script>
+
+    <!-- Import Components -->
+    <script src="./script/components/MenuItem.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountApp = app.mount('#app');
+    </script>
+
+</body>
+
+</html>
