@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>KidsCanteenApp</name>
-	<description>Kids Canteen Application</description>
+	<description>The Kids Canteen Application</description>
 
 	<properties>
 		<java.version>1.8</java.version>
